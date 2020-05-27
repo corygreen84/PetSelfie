@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E541BDBD224B59E90030EF3D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541BDBC224B59E90030EF3D /* SettingsViewController.swift */; };
+		E541BDBF224B59FB0030EF3D /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541BDBE224B59FB0030EF3D /* RecordingViewController.swift */; };
+		E541BDC1224C9FC30030EF3D /* CameraObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541BDC0224C9FC30030EF3D /* CameraObject.swift */; };
+		E541BDC6224CB4EE0030EF3D /* SoundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541BDC5224CB4EE0030EF3D /* SoundsController.swift */; };
+		E5A3307A2235F3A5006256B2 /* EyeTrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A330792235F3A5006256B2 /* EyeTrackingObject.swift */; };
+		E5A837B5223AE0D500B95D5D /* NewRotarySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A837B4223AE0D500B95D5D /* NewRotarySelector.swift */; };
+		E5CB0B92223508B3009ACC1C /* RectangleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CB0B91223508B3009ACC1C /* RectangleObject.swift */; };
+		E5FC47B02223E068001BE91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC47AF2223E068001BE91A /* AppDelegate.swift */; };
+		E5FC47B22223E068001BE91A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC47B12223E068001BE91A /* ViewController.swift */; };
+		E5FC47B52223E068001BE91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FC47B32223E068001BE91A /* Main.storyboard */; };
+		E5FC47B72223E069001BE91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FC47B62223E069001BE91A /* Assets.xcassets */; };
+		E5FC47BA2223E069001BE91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FC47B82223E069001BE91A /* LaunchScreen.storyboard */; };
+		E5FE13C22227A85000932B97 /* CatMeow1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5FE13C02227A85000932B97 /* CatMeow1.mp3 */; };
+		E5FE13C32227A85000932B97 /* bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5FE13C12227A85000932B97 /* bark.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E541BDBC224B59E90030EF3D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E541BDBE224B59FB0030EF3D /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		E541BDC0224C9FC30030EF3D /* CameraObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraObject.swift; sourceTree = "<group>"; };
+		E541BDC5224CB4EE0030EF3D /* SoundsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsController.swift; sourceTree = "<group>"; };
+		E5A330792235F3A5006256B2 /* EyeTrackingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackingObject.swift; sourceTree = "<group>"; };
+		E5A837B4223AE0D500B95D5D /* NewRotarySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRotarySelector.swift; sourceTree = "<group>"; };
+		E5CB0B91223508B3009ACC1C /* RectangleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleObject.swift; sourceTree = "<group>"; };
+		E5FC47AC2223E068001BE91A /* PetSelfieAppTake3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSelfieAppTake3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FC47AF2223E068001BE91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5FC47B12223E068001BE91A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5FC47B42223E068001BE91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5FC47B62223E069001BE91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5FC47B92223E069001BE91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5FC47BB2223E069001BE91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FE13C02227A85000932B97 /* CatMeow1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CatMeow1.mp3; sourceTree = "<group>"; };
+		E5FE13C12227A85000932B97 /* bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bark.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5FC47A92223E068001BE91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E504DAD02236508600D4A04B /* Eye Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				E5CB0B91223508B3009ACC1C /* RectangleObject.swift */,
+				E5A330792235F3A5006256B2 /* EyeTrackingObject.swift */,
+			);
+			path = "Eye Tracking";
+			sourceTree = "<group>";
+		};
+		E541BDC2224C9FD20030EF3D /* Camera Object */ = {
+			isa = PBXGroup;
+			children = (
+				E541BDC0224C9FC30030EF3D /* CameraObject.swift */,
+			);
+			path = "Camera Object";
+			sourceTree = "<group>";
+		};
+		E541BDC3224CB4C30030EF3D /* Settings  */ = {
+			isa = PBXGroup;
+			children = (
+				E541BDBC224B59E90030EF3D /* SettingsViewController.swift */,
+			);
+			path = "Settings ";
+			sourceTree = "<group>";
+		};
+		E541BDC4224CB4CD0030EF3D /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				E541BDBE224B59FB0030EF3D /* RecordingViewController.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		E5FC47A32223E068001BE91A = {
+			isa = PBXGroup;
+			children = (
+				E5FC47AE2223E068001BE91A /* PetSelfieAppTake3 */,
+				E5FC47AD2223E068001BE91A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5FC47AD2223E068001BE91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5FC47AC2223E068001BE91A /* PetSelfieAppTake3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5FC47AE2223E068001BE91A /* PetSelfieAppTake3 */ = {
+			isa = PBXGroup;
+			children = (
+				E5FC47AF2223E068001BE91A /* AppDelegate.swift */,
+				E5FC47B12223E068001BE91A /* ViewController.swift */,
+				E541BDC3224CB4C30030EF3D /* Settings  */,
+				E541BDC4224CB4CD0030EF3D /* Recording */,
+				E5FC47B32223E068001BE91A /* Main.storyboard */,
+				E5FC47B62223E069001BE91A /* Assets.xcassets */,
+				E5FC47B82223E069001BE91A /* LaunchScreen.storyboard */,
+				E5FC47BB2223E069001BE91A /* Info.plist */,
+				E5FE13C42227A85500932B97 /* Sounds */,
+				E5FF35CA22254999001BED17 /* Rotary Selector */,
+				E504DAD02236508600D4A04B /* Eye Tracking */,
+				E541BDC2224C9FD20030EF3D /* Camera Object */,
+			);
+			path = PetSelfieAppTake3;
+			sourceTree = "<group>";
+		};
+		E5FE13C42227A85500932B97 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E5FE13C12227A85000932B97 /* bark.mp3 */,
+				E5FE13C02227A85000932B97 /* CatMeow1.mp3 */,
+				E541BDC5224CB4EE0030EF3D /* SoundsController.swift */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E5FF35CA22254999001BED17 /* Rotary Selector */ = {
+			isa = PBXGroup;
+			children = (
+				E5A837B4223AE0D500B95D5D /* NewRotarySelector.swift */,
+			);
+			path = "Rotary Selector";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5FC47AB2223E068001BE91A /* PetSelfieAppTake3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5FC47BE2223E069001BE91A /* Build configuration list for PBXNativeTarget "PetSelfieAppTake3" */;
+			buildPhases = (
+				E5FC47A82223E068001BE91A /* Sources */,
+				E5FC47A92223E068001BE91A /* Frameworks */,
+				E5FC47AA2223E068001BE91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetSelfieAppTake3;
+			productName = PetSelfieAppTake3;
+			productReference = E5FC47AC2223E068001BE91A /* PetSelfieAppTake3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5FC47A42223E068001BE91A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Cory Green";
+				TargetAttributes = {
+					E5FC47AB2223E068001BE91A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E5FC47A72223E068001BE91A /* Build configuration list for PBXProject "PetSelfieAppTake3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5FC47A32223E068001BE91A;
+			productRefGroup = E5FC47AD2223E068001BE91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5FC47AB2223E068001BE91A /* PetSelfieAppTake3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5FC47AA2223E068001BE91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FC47BA2223E069001BE91A /* LaunchScreen.storyboard in Resources */,
+				E5FE13C32227A85000932B97 /* bark.mp3 in Resources */,
+				E5FC47B72223E069001BE91A /* Assets.xcassets in Resources */,
+				E5FC47B52223E068001BE91A /* Main.storyboard in Resources */,
+				E5FE13C22227A85000932B97 /* CatMeow1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5FC47A82223E068001BE91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A3307A2235F3A5006256B2 /* EyeTrackingObject.swift in Sources */,
+				E5FC47B22223E068001BE91A /* ViewController.swift in Sources */,
+				E5CB0B92223508B3009ACC1C /* RectangleObject.swift in Sources */,
+				E541BDC6224CB4EE0030EF3D /* SoundsController.swift in Sources */,
+				E541BDBF224B59FB0030EF3D /* RecordingViewController.swift in Sources */,
+				E5FC47B02223E068001BE91A /* AppDelegate.swift in Sources */,
+				E541BDC1224C9FC30030EF3D /* CameraObject.swift in Sources */,
+				E5A837B5223AE0D500B95D5D /* NewRotarySelector.swift in Sources */,
+				E541BDBD224B59E90030EF3D /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5FC47B32223E068001BE91A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5FC47B42223E068001BE91A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5FC47B82223E069001BE91A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5FC47B92223E069001BE91A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5FC47BC2223E069001BE91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5FC47BD2223E069001BE91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5FC47BF2223E069001BE91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM794S99T5;
+				INFOPLIST_FILE = PetSelfieAppTake3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenmachine.PetSelfieAppTake3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5FC47C02223E069001BE91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM794S99T5;
+				INFOPLIST_FILE = PetSelfieAppTake3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenmachine.PetSelfieAppTake3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5FC47A72223E068001BE91A /* Build configuration list for PBXProject "PetSelfieAppTake3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FC47BC2223E069001BE91A /* Debug */,
+				E5FC47BD2223E069001BE91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5FC47BE2223E069001BE91A /* Build configuration list for PBXNativeTarget "PetSelfieAppTake3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FC47BF2223E069001BE91A /* Debug */,
+				E5FC47C02223E069001BE91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5FC47A42223E068001BE91A /* Project object */;
+}
